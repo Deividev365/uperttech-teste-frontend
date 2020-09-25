@@ -1,0 +1,29 @@
+:root {
+    --color-primary: #2e22d4;
+    --color-button: rgb(56, 53, 199);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body, #root {
+    height: 100vh;
+}
+
+body {
+    background-image: url('../background3.svg');
+    
+}
+
+h1, h2, h3, h4, h5, h6, a, button {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+  
+
