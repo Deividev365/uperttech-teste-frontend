@@ -1,18 +1,14 @@
 import React from 'react';
 
-
-import Home from './pages/Home';
-
 import './assets/styles/global.css';
-//import Logo from './assets/logo.png'
+
+
+import Routes from './routes';
 
 function App() {
   return (
-
-      <Home/>
-
-
-
+    
+      <Routes/>
 
   );
 }

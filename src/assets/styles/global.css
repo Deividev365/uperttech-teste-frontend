@@ -1,6 +1,12 @@
 :root {
-    --color-primary: #2e22d4;
-    --color-button: rgb(56, 53, 199);
+    --color-primary: #050505;
+    --color-secondary: rgb(63, 62, 62);
+    --color-title: rgb(255, 255, 255);
+    --color-button: rgb(120, 118, 250);
+    --text-color: #353030;
+    --white: rgb(204, 183, 183)fff;
+
+    --shadow-color: #2adb6ec9;
 }
 
 
@@ -20,10 +26,9 @@ body {
     
 }
 
-h1, h2, h3, h4, h5, h6, a, button {
+h1, h2, h3, h4, h5, h6, a, button{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: black;
 }
   
 

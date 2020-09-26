@@ -24,11 +24,11 @@ Para a navegação entre as páginas, você deve utilizar alguma biblioteca de _
 
 ### Tarefas
 
-- [ ] Implementar o design da página principal
+- [X] Implementar o design da página principal
 
   - Escolher um dos designs previamente fornecidos em [pagina-principal.md](./docs/pagina-principal.md). Todos os assets necessários já estão na pasta `public`.
 
-- [ ] Criar a página de login/cadastro
+- [X] Criar a página de login/cadastro
 
   - Você deve criar apenas uma página para ambos, diferenciando as ações de login e cadastro na própia página.
 
