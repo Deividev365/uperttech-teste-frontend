@@ -1,7 +1,6 @@
 import React from 'react';
 
-/* import {Form, CadasterContainer, LoginContainer, H1, LoginLink, Input, H3, Info, ButtonSubmit} from './styles';
- *//*Entrar login ou cadastro novo*/
+
 import HeaderContent from '../../components/Header';
 import FormUser from '../../components/Form/';
 
@@ -12,11 +11,21 @@ const UserRegister = () => {
             logo="uperttech"
             linkWhoWeAre="Quem Somos"
             linkServices="Serviços"
-            buttonSolution="Voltar"
+            buttonSolution="Soluções"
         />
         
         
-        <FormUser/>
+        <FormUser 
+            title="Bem Vindo! Já é cadastrado?"
+            loginLink="Login"
+            createAccountTitle="Criar Conta :)"
+            infoName="Nome"
+            infoEmail="E-mail"
+            infoPassword="Senha"
+            buttonSubmit="Enviar"
+        />
+
+
         </>
     )
 }

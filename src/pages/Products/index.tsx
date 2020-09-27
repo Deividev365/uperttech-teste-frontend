@@ -18,7 +18,7 @@ const Products = () => {
         />
 
         <MainProducts 
-            title="Criamos Softwares que mudam a sua forma de trabalhar"
+            title="Criamos Softwares que mudam a sua forma de trabalhar."
         />
 
         <ProductsExample 

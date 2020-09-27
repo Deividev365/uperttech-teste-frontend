@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
+import {Link} from 'react-router-dom';
 
-import SolutionLink from '../Home/styles';
+import SolutionLink from '../../pages/Home';
 
 
 
@@ -17,6 +18,13 @@ export const Form = styled.form`
     display: grid;
     grid-template-columns: 1fr 1fr;
 
+    @media(max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: none;
+    }
+
 `;
 
 export const LoginContainer = styled.section`
@@ -25,24 +33,39 @@ export const LoginContainer = styled.section`
     margin: 90px auto;
     padding: 25px;
 
+    @media(max-width: 900px) {
+        padding: 5px;
+    }
+
 `;
 
 export const H1 = styled.h1`
     margin-bottom: 35px;
     font-size: 36px;
+
+    @media(max-width: 900px) {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
 `;
 
-export const LoginLink = styled(SolutionLink)`
+export default styled(Link)`
 
+    padding: 14px 40px;
+    background: var(--color-button);
+    color: white;
+    border: none;
+    outline: none;
+
+    box-shadow: 2px 10px 20px var(--color-button);
 `; 
-
-
 
 
 export const CadasterContainer = styled.section`
     padding: 35px;
     background-color: var(--color-title);
 `;
+
 
 export const Input = styled.input`
 

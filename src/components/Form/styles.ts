@@ -34,6 +34,7 @@ export const LoginContainer = styled.section`
     padding: 25px;
 
     @media(max-width: 900px) {
+        padding: 5px;
     }
 
 `;
@@ -44,7 +45,7 @@ export const H1 = styled.h1`
 
     @media(max-width: 900px) {
 
-        margin-bott: 60px;
+        font-size: 30px;
     }
 `;
 

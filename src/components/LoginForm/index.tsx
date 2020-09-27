@@ -1,45 +1,33 @@
 import React from 'react';
 
-
 import {Form, CadasterContainer, LoginContainer, H1, Input, H3, Info, ButtonSubmit} from './styles';
+
 
 import LoginLink from './styles';
 
 
-interface FormUserProps {
+interface LoginFormProps {
     title: string;
-    loginLink: string;
-    createAccountTitle: string;
-    infoName: string;
+    userRegisterLink: string;
+    LoginAccountTitle: string;
     infoEmail: string;
     infoPassword: string;
-    buttonSubmit: string;
-
+    buttonLogin: string;
 }
 
-
-const FormUser: React.FC<FormUserProps> = (props) => {
+const LoginForm: React.FC<LoginFormProps> = (props) => {
     return(
-        <Form method="POST">
+        <Form method="">
 
             <LoginContainer>
                 <H1>{props.title}</H1>
-                 <LoginLink to="/login">{props.loginLink}</LoginLink>
+                <LoginLink to="/userRegister">{props.userRegisterLink}</LoginLink>
+
             </LoginContainer>
 
 
             <CadasterContainer>
-                <H3>{props.createAccountTitle}</H3>
-
-                <div>
-                    <Info>{props.infoName}</Info>
-                    <div>
-                    <Input
-                        type="text"
-                        placeholder=""
-                     />
-                    </div>
-                </div>
+                <H3>{props.LoginAccountTitle}</H3>
 
                 <div className="item">
                     <Info>{props.infoEmail}</Info>
@@ -61,12 +49,11 @@ const FormUser: React.FC<FormUserProps> = (props) => {
                     </div>
                 </div>
 
-                <ButtonSubmit type="submit">{props.buttonSubmit}</ButtonSubmit>
+                <ButtonSubmit type="submit">{props.buttonLogin}</ButtonSubmit>
             </CadasterContainer>
 
         </Form>
-    );
+    )
 }
 
-
-export default FormUser;
+export default LoginForm;

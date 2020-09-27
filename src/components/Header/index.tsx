@@ -6,7 +6,7 @@ import {Header, Logo, Navigator, NavigatorLinks, Li, Anchor} from './styles';
 import SolutionLink from './styles';
 
 interface HeaderProps {
-  logo?: string;
+  logo: string;
   linkWhoWeAre: string;
   linkServices: string;
   buttonSolution?: string;
@@ -17,7 +17,7 @@ const HeaderContent: React.FC<HeaderProps> = (props) => {
     return(
         <Header>
 
-        <Logo href="/">{props.logo}</Logo>
+        <Logo to="/">{props.logo}</Logo>
 
         <Navigator>
           <NavigatorLinks>

@@ -10,14 +10,20 @@ export const Header = styled.header`
     padding: 30px 5%;
 `;
 
-export const Logo = styled.a`
+export const Logo = styled(Link)`
     /*logo is going to be right at the begginer of the container*/
+    color: var(--color-primary);
     margin: auto;
     left: 0;
     margin-left: 0;
     cursor: pointer;
     font-size: 33px;
     text-transform: uppercase;
+    text-decoration: none;
+
+    &:active {
+        color: var(--color-primary);
+    }
 
 
     @media(max-width: 600px) {
