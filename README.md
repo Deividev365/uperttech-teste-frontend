@@ -32,7 +32,7 @@ Para a navegação entre as páginas, você deve utilizar alguma biblioteca de _
 
   - Você deve criar apenas uma página para ambos, diferenciando as ações de login e cadastro na própia página.
 
-- [ ] Criar a página de exibição de produtos
+- [X] Criar a página de exibição de produtos
   - A Uperttech vende produtos em software. Você pode utilizar imagens de bancos de imagens gratuitos para ilustrar os produtos. Recomendamos o [unDraw](https://undraw.co/) e o [Freepik](http://freepik.com/)
 
 ### Entrega

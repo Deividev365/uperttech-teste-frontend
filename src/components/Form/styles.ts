@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
+import {Link} from 'react-router-dom';
 
-import SolutionLink from '../Home/styles';
+import SolutionLink from '../../pages/Home';
 
 
 
@@ -47,11 +48,19 @@ export const H1 = styled.h1`
     }
 `;
 
-export const LoginLink = styled(SolutionLink)`
-    
-    @media(max-width: 900px) {
+export default styled(Link)`
 
-    }
+padding: 14px 40px;
+    background: var(--color-button);
+    color: white;
+    border: none;
+    outline: none;
+
+    box-shadow: 2px 10px 20px var(--color-button);
+    
+    /* @media(max-width: 900px) {
+
+    } */
 `; 
 
 

@@ -3,8 +3,10 @@
     --color-secondary: rgb(63, 62, 62);
     --color-title: rgb(255, 255, 255);
     --color-button: rgb(120, 118, 250);
+    --product-color:  rgb(125, 123, 223);
     --text-color: #353030;
     --white: rgb(204, 183, 183)fff;
+    --projects: rgb(236, 230, 230);
 
     --shadow-color: #2adb6ec9;
 }
